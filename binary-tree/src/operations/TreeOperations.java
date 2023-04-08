@@ -8,6 +8,9 @@ public class TreeOperations {
 
 
     /**
+     * To find maximum height of a binary tree,
+     * from root to leaf node.
+     * <p>
      * Time Complexity: O(n)
      * Auxiliary Space: O(h)
      *
@@ -21,6 +24,15 @@ public class TreeOperations {
         return Math.max(getHeight(node.getLeft()), getHeight(node.getRight())) + 1;
     }
 
+    /**
+     * To print all the nodes at the given distance from the root node.
+     * <p>
+     * Time Complexity: O(n)
+     * Auxiliary Space: O(h)
+     *
+     * @param node
+     * @param distance
+     */
     public void printNodesAtDistance(Node node, int distance) {
         if (Objects.isNull(node)) {
             return;

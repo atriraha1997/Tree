@@ -1,9 +1,6 @@
 import node.Node;
 import operations.TreeOperations;
-import traversal.InOrderTraversal;
-import traversal.PostOrderTraversal;
-import traversal.PreOrderTraversal;
-import traversal.TreeTraversal;
+import traversal.*;
 
 public class Main {
 
@@ -30,6 +27,10 @@ public class Main {
         System.out.println("\nPostorder traversal of Binary Tree:");
         TreeTraversal postOrderTraversal = new PostOrderTraversal();
         postOrderTraversal.traverse(getTree());
+
+        System.out.println("\nLevel order traversal of Binary Tree:");
+        TreeTraversal levelOrderTraversal = new LevelOrderTraversal();
+        levelOrderTraversal.traverse(getTree());
 
         TreeOperations operations = new TreeOperations();
         System.out.printf("\nHeight of Binary Tree: %d ", operations.getHeight(getTree()));
