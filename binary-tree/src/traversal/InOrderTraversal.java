@@ -4,7 +4,7 @@ import node.Node;
 
 import java.util.Objects;
 
-public class InorderTraversal implements TreeTraversal {
+public class InOrderTraversal implements TreeTraversal {
 
     /**
      * In Inorder traversal we recursively visit left subtree,
