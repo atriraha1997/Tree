@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Tree.iml" filepath="$PROJECT_DIR$/.idea/Tree.iml" />
       <module fileurl="file://$PROJECT_DIR$/binary-tree/binary-tree.iml" filepath="$PROJECT_DIR$/binary-tree/binary-tree.iml" />
-      <module fileurl="file://$PROJECT_DIR$/tree-traversal/tree-traversal.iml" filepath="$PROJECT_DIR$/tree-traversal/tree-traversal.iml" />
     </modules>
   </component>
 </project>

@@ -1,9 +1,11 @@
+package node;
+
 public class Node {
     private int key;
     private Node left;
     private Node right;
 
-    Node(int key){
+    public Node(int key) {
         this.key = key;
     }
 
@@ -33,7 +35,7 @@ public class Node {
 
     @Override
     public String toString() {
-        return "Node{" +
+        return "node.Node{" +
                 "key=" + key +
                 ", left=" + left +
                 ", right=" + right +
