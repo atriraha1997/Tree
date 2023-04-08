@@ -4,5 +4,5 @@ import node.Node;
 
 public interface TreeTraversal {
 
-    void traverse(Node rootNode);
+    void traverse(Node node);
 }

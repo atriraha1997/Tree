@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec8027c5-7a66-4f3a-84a1-096a0a956f49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binary-tree/src/traversal/PostOrderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binary-tree/src/traversal/PreorderTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/binary-tree/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/binary-tree/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary-tree/src/traversal/InOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/binary-tree/src/traversal/InOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary-tree/src/traversal/PostOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/binary-tree/src/traversal/PostOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary-tree/src/traversal/PreOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/binary-tree/src/traversal/PreOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary-tree/src/traversal/TreeTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/binary-tree/src/traversal/TreeTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tree/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tree/traversal/InOrderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/traversal/InOrderTraversal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tree/traversal/PostOrderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/traversal/PostOrderTraversal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tree/traversal/PreOrderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/traversal/PreOrderTraversal.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +39,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"

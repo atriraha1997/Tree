@@ -18,14 +18,14 @@ public class PreOrderTraversal implements TreeTraversal {
      * Since in worst case h+1 function calls will be there in function call stack.
      * Where h is the height of binary tree.
      *
-     * @param rootNode
+     * @param node
      */
     @Override
-    public void traverse(Node rootNode) {
-        if (Objects.nonNull(rootNode)) {
-            System.out.printf("%d ",rootNode.getKey());
-            traverse(rootNode.getLeft());
-            traverse(rootNode.getRight());
+    public void traverse(Node node) {
+        if (Objects.nonNull(node)) {
+            System.out.printf("%d ",node.getKey());
+            traverse(node.getLeft());
+            traverse(node.getRight());
         }
     }
 }
