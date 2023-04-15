@@ -32,6 +32,10 @@ public class Main {
         TreeTraversal levelOrderTraversal = new LevelOrderTraversal();
         levelOrderTraversal.traverse(getTree());
 
+        System.out.println("\nLevel order traversal of Binary Tree Line by Line:");
+        LevelOrderTraversal levelOrderTraversalLineByLine = new LevelOrderTraversal();
+        levelOrderTraversalLineByLine.traverseLineByLine(getTree());
+
         TreeOperations operations = new TreeOperations();
         System.out.printf("\nHeight of Binary Tree: %d ", operations.getHeight(getTree()));
 
